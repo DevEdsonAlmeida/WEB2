@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* so funciona para colunas*/
+    justify-content: center;
+    /* so funciona para linhas*/
+    border: 3px solid black;
+    height: 100vh;
+    flex-wrap: wrap;
+    /* quebra os elementos indo para baixo*/
+}
+
+
+.item {
+    height: 150px;
+    background-color: red;
+    margin: 10px;
+    border: 1px solid black;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+
+}
+
+.div1 {
+    width: 20%;
+}
+
+.div2 {
+    width: 30%;
+}
+
+.div3 {
+    width: 40%;
+}
